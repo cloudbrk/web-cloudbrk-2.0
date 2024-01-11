@@ -158,6 +158,45 @@
         color: #000;
         background-color: var(--cldbrk-sunset2);
     }
+    /* PORTFOLIO SECTION */
+    
+    .portfolio-item {
+        cursor: pointer;
+        position: relative;
+        display: block;
+        max-width: 25rem;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        background-color: #000;
+    }
+    
+    .portfolio-item img {
+        opacity: 0.5;
+        transition: 0.3s;
+    }
+    
+    .portfolio-item img:hover {
+        opacity: 1.0;
+        transition: 0.3s;
+    }
+    
+    .portfolio-modal .btn-close {
+        color: var(--cldbrk-ocean1);
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    
+    .portfolio-modal .portfolio-modal-title {
+        font-size: 2.25rem;
+        line-height: 2rem;
+    }
+    
+    @media (min-width: 992px) {
+        .portfolio-modal .portfolio-modal-title {
+            font-size: 3rem;
+            line-height: 2.5rem;
+        }
+    }
     /* OLD BELOW THIS LINE */
     
     .text-cbb {
