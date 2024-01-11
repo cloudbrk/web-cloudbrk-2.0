@@ -1,0 +1,283 @@
+    /* COLOR DETAILS */
+    
+     :root {
+        --cldbrk-sand: #f8f2e3;
+        --cldbrk-sunset1: #fedc7b;
+        --cldbrk-sunset2: #ff9b6b;
+        --cldbrk-sunset3: #df614a;
+        --cldbrk-sunset4: #be402a;
+        --cldbrk-ocean1: #1a84bf;
+        --cldbrk-ocean2: #1f6875;
+        --cldbrk-ocean3: #1f4e6e;
+        --cldbrk-grey: #212529;
+    }
+    
+    .bg-cb-sand {
+        background-color: var(--cldbrk-sand);
+    }
+    /* FORMATTING DETAILS */
+    
+    .cloudbreak {
+        background-color: var(--cldbrk-sand);
+    }
+    
+    .bbnav {
+        border-bottom: solid 1px var(--cldbrk-sunset4);
+    }
+    
+    .text-upr {
+        text-transform: uppercase;
+    }
+    
+    .cloudbreakrow {
+        width: 85%;
+        max-width: 1080px;
+        margin: auto;
+        position: relative;
+    }
+    
+    .cloudbreakfooter {
+        background-color: var(--cldbrk-grey);
+        color: #fff;
+    }
+    
+    .cloudbreakrow hr {
+        color: var(--cldbrk-sunset4);
+    }
+    
+    .mini-header {
+        /* Default if picture doesn't load */
+        background: linear-gradient(45deg, #000000cc, #373833aa);
+        max-height: 600px;
+        width: 100%;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .headsect {
+        min-height: 450px;
+        z-index: 2;
+    }
+    
+    .home-header {
+        background: linear-gradient(45deg, #000000aa, #000000aa), url(../img/homeheader.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    
+    .about-feature {
+        background: url(../img/section-feature-about.jpg) no-repeat center center;
+        background-size: cover;
+        height: 100%;
+        min-height: 200px;
+    }
+    
+    .section-title {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .section-title h2 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        padding: 8px 20px;
+        background: var(--cldbrk-ocean1);
+        color: #fff;
+        display: inline-block;
+        text-transform: uppercase;
+        border-radius: 50px;
+    }
+    
+    .section-title h3 span {
+        color: var(--cldbrk-sunset3);
+    }
+    
+    .tech {
+        max-width: 100%;
+        max-height: 75px;
+    }
+    
+    .team-pic {
+        width: 100%;
+        max-width: 300px;
+        max-height: 500px;
+    }
+    
+    .team-info {
+        color: var(--cldbrk-ocean3)
+    }
+    
+    .team-info span {
+        font-weight: 200;
+    }
+    
+    .team {
+        display: flex;
+        align-items: center;
+    }
+    
+    .clear {
+        background-color: transparent !important;
+        border: none !important;
+    }
+    /* Button Style "CBO" aka Cloudbreak Ocean */
+    
+    a {
+        text-decoration: none !important;
+    }
+    
+    .btn-cbo {
+        color: #fff;
+        background-color: var(--cldbrk-ocean3);
+        border: none;
+        padding: 0.5rem 3rem;
+        width: 100%;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .btn-cbo:hover {
+        background-color: var(--cldbrk-ocean1);
+        text-decoration: none;
+    }
+    /* Button Style "CBS" aka Cloudbreak Sunset -- LARGE */
+    
+    .btn-cbs-lg {
+        color: #fff;
+        background-color: var(--cldbrk-sunset3);
+        border: none;
+        padding: 0.5rem 3rem;
+        width: 100%;
+        font-size: 1.25rem;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+    .btn-cbs-lg:hover {
+        color: #000;
+        background-color: var(--cldbrk-sunset2);
+    }
+    /* OLD BELOW THIS LINE */
+    
+    .text-cbb {
+        color: var(--cldbrk-blue);
+    }
+    
+    .text-cbbd {
+        color: var(--cldbrk-blue-dark1)
+    }
+    
+    .text-cbg {
+        color: var(--cldbrk-grey);
+    }
+    
+    .text-cbo {
+        color: var(--cldbrk-orange)
+    }
+    
+    .text-justify {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    
+    .btn-outline-cbo {
+        color: var(--cldbrk-orange);
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    }
+    
+    .btn-outline-cb0:hover {
+        color: #fff;
+        background-color: var(--cldbrk-orange);
+        border-color: var(--cldbrk-orange);
+    }
+    
+    .mc-field-group input {
+        color: var(--cldbrk-orange);
+        padding: 0.5rem;
+        margin: 0.3rem 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .pb-300 {
+        padding-bottom: 3rem;
+    }
+    
+    .rnwf {
+        flex-flow: row nowrap;
+        display: flex;
+    }
+    
+    .nav-link-social {
+        display: inline-block;
+        text-decoration: none;
+        color: rgba(0, 0, 0, .55);
+        padding: 0.5rem 1rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    }
+    
+    .nav-link-social-lg {
+        display: inline-block;
+        font-size: 2rem;
+        text-align: center;
+        color: rgba(0, 0, 0, .55);
+        padding: 0.5rem 1rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    }
+    
+    @media (prefers-reduced-motion: reduce) {
+        .nav-link-social {
+            transition: none;
+        }
+    }
+    
+    @media (prefers-reduced-motion: reduce) {
+        .nav-link-social-lg {
+            transition: none;
+        }
+    }
+    
+    .nav-link-social:hover,
+    .nav-link-social:focus {
+        color: rgba(0, 0, 0, .7);
+    }
+    
+    .nav-link-social-lg:hover,
+    .nav-link-social-lg:focus {
+        color: rgba(0, 0, 0, .7);
+    }
+    
+    .app-icon {
+        border-radius: 20%!important;
+    }
+    
+    .smush {
+        margin-bottom: -1.5rem;
+    }
+    
+    .app-version {
+        font-weight: 300!important;
+        line-height: 0.8rem!important;
+        font-size: 0.8rem!important;
+        vertical-align: middle!important;
+    }
